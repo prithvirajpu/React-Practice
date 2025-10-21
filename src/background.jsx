@@ -8,9 +8,8 @@ function Background(){
 
 
     return (
-        <div style={{backgroundColor:color}} >
+        <div style={{backgroundColor:color,height:'100vh'}} >
             <input type="text"  value={color} placeholder="Enter the color" onChange={(e)=>setColor(e.target.value)} />
-            <h1>hello</h1>
 
         </div>
     )

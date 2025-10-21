@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(146, 144, 144);
+}
+.completed{
+    text-decoration: line-through;
+}

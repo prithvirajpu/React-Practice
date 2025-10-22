@@ -2,6 +2,7 @@ import react,{useState} from 'react'
 
 function Temparature(){
     const [type,setTyped]=useState(0)
+    
     function handleTemperature(e){
         setTyped(e.target.value)
     }

@@ -6,6 +6,7 @@ function Counter(){
     function handleAdd(){
 
         setCount(count+parseInt(typed))
+        
     }
 
 

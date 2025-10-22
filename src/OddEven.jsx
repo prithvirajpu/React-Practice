@@ -5,6 +5,7 @@ function OddEven(){
 
     return (
         <div>
+            
             <h1 style={{color:count%2===0?'green':'orange'}} >{count}</h1>
             <button onClick={()=>setCount((c)=>c+1)} >Add</button>
 

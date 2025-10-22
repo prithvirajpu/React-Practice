@@ -13,8 +13,6 @@ function ThemeToggle(){
         justifyContent:'center',
         
     }
-
-
     return (
         <div style={mystyle}>
             

@@ -6,10 +6,11 @@ function CountChange(){
     const [count,setCount]=useState(0)
     function handleAdd(){
         setCount(count+type)
-    }
+    } 
 
     return (
         <div>
+
             <input type="number" value={type} onChange={(e)=>setType(parseInt(e.target.value))} />
             <button onClick={handleAdd} >Add </button>
             <h2> {count} </h2>

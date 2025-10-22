@@ -42,7 +42,7 @@ function TodoList(){
             <button onClick={handleTodos} >Add</button>
             <ul>
                 {data.map((element,index)=> <li className={(element.completed?'completed':'')}  key={index} >
-                    <input type="checkbox"  onClick={()=>handleToggle(index)} checked={element.completed} />
+                    <input type="checkbox"  onChange={()=>handleToggle(index)} checked={element.completed} />
                     {element.text}
                     <button onClick={()=>handleDelete(index)} >Delete</button>
                     <button onClick={()=>handleEdit(index)} >Edit</button>
